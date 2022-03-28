@@ -17,13 +17,13 @@ public class App {
             cypherList.add(cypher[i]);
         }
 
-        String asd = new String("Yvzs! I xzm'g yvorvev Lzmxv olhg srh qly zg gsv xlolmb!!");
+        String testString = new String("Yvzs! I xzm'g yvorvev Lzmxv olhg srh qly zg gsv xlolmb!!");
         String out = new String();
-        for (int i = 0; i < asd.length(); i++) {
-            if (Character.isLowerCase(asd.charAt(i))) {
-                out += alphabetList.get(cypherList.indexOf(asd.charAt(i)));
+        for (int i = 0; i < testString.length(); i++) {
+            if (Character.isLowerCase(testString.charAt(i))) {
+                out += alphabetList.get(cypherList.indexOf(testString.charAt(i)));
             } else {
-                out += asd.charAt(i);
+                out += testString.charAt(i);
             }
         }
         System.out.println(out);
